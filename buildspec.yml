@@ -23,8 +23,8 @@ phases:
       - echo Writing image definitions file...
       - printf '[{"name":"nodeapp","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
       - cat imagedefinitions.json 
-artifacts:
-    files: "" We can define this to store our artifact"
+#artifacts:
+#    files: "" We can define this to store our artifact"
 ##cache
 #    path:
 #    - " Speeds up the re build process"
